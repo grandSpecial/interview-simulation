@@ -2,6 +2,9 @@
 
 This project provides a tool for simulating conversations between an AI assistant and a user. It's designed to help developers rapidly iterate on and improve their AI assistants, particularly for tasks like conducting interviews or generating reports.
 
+## Origin
+Built to test the SUMS Capital founder interview agent. Rather than coordinating real founders for each iteration, this tool simulates respondents using context retrieved from a Pinecone vector database — allowing the agent to be tested and refined rapidly against realistic synthetic personas. The pattern generalizes to any AI agent that conducts structured interviews or generates reports from conversational input.
+
 ## Features
 
 - Simulates back-and-forth conversations using OpenAI's API
